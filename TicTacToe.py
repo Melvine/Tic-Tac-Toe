@@ -53,7 +53,8 @@ def checkWin(letter,board):
             print(letter + " wins")
             return False
         r = r - 1
-
+    
+    #checks for a tie in the game
     count = 0
     for r in range(3):
         for k in range(3):
