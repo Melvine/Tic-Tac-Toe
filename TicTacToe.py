@@ -74,7 +74,8 @@ def game():
     board = [['-','-','-'],['-','-','-'],['-','-','-']]
     printBoard(board)
     x = True #initialize x as True to loop the game, False when there is a winner
-    
+   
+    #user inputs 
     while x:
         n = input("Please enter 'x' or 'o':")
         while n.strip() != 'x' and n.strip() != 'o':
@@ -92,11 +93,11 @@ def game():
         print("FINE THEN")
         print("GOOD GAME BISH!!!!")
     
-        
+#message after user chooses the option to quit the game        
 def quitGame():
     print("Hope you had fun!!")
     
-    
+#first initialized as the game's main menu    
 print("Tic Tac Toe")
 print("play")
 print("quit")
